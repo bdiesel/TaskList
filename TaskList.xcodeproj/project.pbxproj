@@ -21,6 +21,7 @@
 		4972180523CFB799007E2A11 /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180323CFB799007E2A11 /* IndexedCollection.swift */; };
 		4972180723D0CF99007E2A11 /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180623D0CF99007E2A11 /* Task.Priority.swift */; };
 		4972180923D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180823D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift */; };
+		4972180B23D0D65B007E2A11 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180A23D0D65B007E2A11 /* SectionView.swift */; };
 		49CB0ED823AB03D400A66420 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB0ED723AB03D400A66420 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		4972180323CFB799007E2A11 /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
 		4972180623D0CF99007E2A11 /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
 		4972180823D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTasks.swift; sourceTree = "<group>"; };
+		4972180A23D0D65B007E2A11 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		49CB0ED723AB03D400A66420 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 				496F8D0423A6BC0F00AF2D7B /* ContentView.swift */,
 				497217F723CFB074007E2A11 /* RowView.swift */,
 				497217F923CFB5C2007E2A11 /* TaskEditingView.swift */,
+				4972180A23D0D65B007E2A11 /* SectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				497217F823CFB074007E2A11 /* RowView.swift in Sources */,
 				4972180723D0CF99007E2A11 /* Task.Priority.swift in Sources */,
 				49CB0ED823AB03D400A66420 /* NewTaskView.swift in Sources */,
+				4972180B23D0D65B007E2A11 /* SectionView.swift in Sources */,
 				4972180923D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift in Sources */,
 				496F8D0123A6BC0F00AF2D7B /* AppDelegate.swift in Sources */,
 				496F8D0323A6BC0F00AF2D7B /* SceneDelegate.swift in Sources */,
