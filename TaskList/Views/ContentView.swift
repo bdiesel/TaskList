@@ -15,8 +15,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List{
-                ForEach(taskStore.tasks){ task in
-                    Text(task.name)
+                ForEach(taskStore.tasks){ index in
+                    RowView(task: self.$taskStore.tasks[index])
                 }
                 .onMove{ sourceIdx, destinationIdx in
                     self.taskStore.tasks.move(
@@ -35,7 +35,6 @@ struct ContentView: View {
                 {
                     Image(systemName: "plus")
                 })
-           // .navigationBarItems("Tasks")
         }
         .sheet(isPresented: $modalIsPresented){
             NewTaskView(taskStore: self.taskStore)
