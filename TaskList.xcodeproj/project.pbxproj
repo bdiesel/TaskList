@@ -22,6 +22,7 @@
 		4972180723D0CF99007E2A11 /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180623D0CF99007E2A11 /* Task.Priority.swift */; };
 		4972180923D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180823D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift */; };
 		4972180B23D0D65B007E2A11 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180A23D0D65B007E2A11 /* SectionView.swift */; };
+		4972180D23D0E759007E2A11 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4972180C23D0E759007E2A11 /* Binding.swift */; };
 		49CB0ED823AB03D400A66420 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB0ED723AB03D400A66420 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		4972180623D0CF99007E2A11 /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
 		4972180823D0D091007E2A11 /* TaskStore.PrioritizedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTasks.swift; sourceTree = "<group>"; };
 		4972180A23D0D65B007E2A11 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		4972180C23D0E759007E2A11 /* Binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 		49CB0ED723AB03D400A66420 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				4972180223CFB799007E2A11 /* ForEach.swift */,
+				4972180C23D0E759007E2A11 /* Binding.swift */,
 				4972180323CFB799007E2A11 /* IndexedCollection.swift */,
 			);
 			path = extensions;
@@ -203,6 +206,7 @@
 				496F8D1823A6BF7F00AF2D7B /* TaskStore.swift in Sources */,
 				4972180523CFB799007E2A11 /* IndexedCollection.swift in Sources */,
 				496F8D1523A6BF1200AF2D7B /* Task.swift in Sources */,
+				4972180D23D0E759007E2A11 /* Binding.swift in Sources */,
 				497217FA23CFB5C2007E2A11 /* TaskEditingView.swift in Sources */,
 				4972180423CFB799007E2A11 /* ForEach.swift in Sources */,
 				497217F823CFB074007E2A11 /* RowView.swift in Sources */,
