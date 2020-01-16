@@ -11,13 +11,16 @@ import SwiftUI
 struct NewTaskView: View {
     var taskStore: TaskStore
     @State var text = ""
+    @State var priority: Task.Priority = .no
+    
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         Form{
             TextField("Task Name", text: $text)
             Button("ADD"){
-                self.taskStore.tasks.append(
+                let priorityIndex = self.taskStore.getIndex(for: self.priority)
+                self.taskStore.prioritizedTasks[priorityIndex].tasks.append(
                     Task(name: self.text)
                 )
                 self.presentationMode.wrappedValue.dismiss()
